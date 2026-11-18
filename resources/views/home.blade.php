@@ -788,7 +788,7 @@ document.addEventListener('keydown', (e) => {
 .vault-card-new:hover {
   transform: translateY(-8px) scale(1.02);
   border-color: rgba(212, 175, 55, 0.4);
-  box-shadow: 
+  box-shadow:
     0 20px 60px rgba(0, 0, 0, 0.4),
     0 0 0 1px rgba(212, 175, 55, 0.2),
     0 0 40px rgba(212, 175, 55, 0.1);
@@ -811,8 +811,8 @@ document.addEventListener('keydown', (e) => {
   transition: opacity 0.3s ease;
   z-index: 2;
   pointer-events: none;
-  -webkit-mask: 
-    linear-gradient(#fff 0 0) content-box, 
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
     linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
